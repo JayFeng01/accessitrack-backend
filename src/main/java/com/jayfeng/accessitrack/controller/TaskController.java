@@ -19,7 +19,7 @@ import com.jayfeng.accessitrack.service.TaskService;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class TaskController {
 
 
